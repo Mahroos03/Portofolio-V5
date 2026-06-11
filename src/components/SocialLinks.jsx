@@ -32,6 +32,10 @@ const socialLinks = [
       />
     </svg>
   ),
+  url: "https://wa.me/94770651216",
+  color: "#25D366",
+  gradient: "from-[#25D366] to-[#1DAE5B]",
+  isPrimary: false
   },
   {
     name: "LinkedIn",
