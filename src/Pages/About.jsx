@@ -58,7 +58,7 @@ const ProfileImage = memo(() => (
 
           {/* Image - Fixed size, no circle */}
           <img
-            src="src/assets/profiles/about profile.png"
+            src="/assets/profiles/about profile.png"
             alt="Profile"
             className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-1"
             loading="lazy"

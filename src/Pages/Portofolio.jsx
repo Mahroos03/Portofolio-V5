@@ -33,7 +33,7 @@ const projectData = [
     id: "ecommerce-platform",
     Title: "E-Commerce Platform - Full Stack",
     Description: "A complete e-commerce solution with user authentication, product management, shopping cart, and payment integration. Features JWT authentication, REST APIs, responsive UI, and Docker deployment.",
-    Img: "src/assets/projects/e-commerce.png",
+    Img: "/assets/projects/e-commerce.png",
     Link: "https://github.com/mahroos03/ecommerce-platform",
     LiveDemo: getDemoLink("ecommerce-platform"),
     TechStack: ["Java", "Spring Boot", "React", "MySQL", "Docker", "Spring Security", "Hibernate"]
@@ -42,7 +42,7 @@ const projectData = [
     id: "hospital-management",
     Title: "Hospital Management System",
     Description: "A microservices-based hospital management system with patient records, appointment scheduling, and billing modules. Features API Gateway and Service Discovery.",
-    Img: "src/assets/projects/hospital.png",
+    Img: "/assets/projects/hospital.png",
     Link: "https://github.com/mahroos03/hospital-management",
     LiveDemo: getDemoLink("hospital-management"),
     TechStack: ["Spring Boot", "Microservices", "PostgreSQL", "Spring Cloud", "Eureka", "Resilience4j"]
@@ -51,7 +51,7 @@ const projectData = [
     id: "secure-auth-system",
     Title: "Secure Auth System",
     Description: "Sistem Autentikasi dan Otorisasi Aman dengan dukungan multiple login providers (Google, GitHub, Email) dan role-based access control. Fitur: JWT, OAuth2, Multi-Factor Authentication, dan Redis caching.",
-    Img: "src/assets/projects/secure-auth-system.png",
+    Img: "/assets/projects/secure-auth-system.png",
     Link: "https://github.com/mahroos03/secure-auth-system",
     LiveDemo: getDemoLink("secure-auth-system"),
     TechStack: ["Spring Security", "JWT", "OAuth2", "Redis", "MFA", "Google API", "GitHub API"]
@@ -60,7 +60,7 @@ const projectData = [
     id: "event-management",
     Title: "Event Management System",
     Description: "Sistem manajemen event komprehensif dengan notifikasi real-time dan integrasi kalender. Fitur: WebSocket communication, email notifications, Google Calendar API integration, dan microservices architecture.",
-    Img: "src/assets/projects/event-management.png",
+    Img: "/assets/projects/event-management.png",
     Link: "https://github.com/mahroos03/event-management",
     LiveDemo: getDemoLink("event-management"),
     TechStack: ["Spring WebSocket", "React", "FullCalendar API", "Email Integration", "Microservices", "PostgreSQL", "Docker"]
@@ -69,7 +69,7 @@ const projectData = [
     id: "erp-finance-module",
     Title: "ERP Finance Module",
     Description: "Modul keuangan untuk sistem ERP dengan integrasi backend untuk manajemen keuangan, pelaporan, dan analitik. Fitur: REST APIs, external bank API integration, dan reporting tools.",
-    Img: "src/assets/projects/erp-finance.png",
+    Img: "/assets/projects/erp-finance.png",
     Link: "https://github.com/mahroos03/Erp_Finance_Module",
     LiveDemo: getDemoLink("erp-finance-module"),
     TechStack: ["Java", "Spring Boot", "REST APIs", "Database Management", "Bank API Integration", "Reporting Tools"]
@@ -78,7 +78,7 @@ const projectData = [
     id: "growtopia-calculator",
     Title: "Growtopia-Calculator",
     Description: "Kalkulator untuk menghitung nilai item, trading, dan statistik dalam game Growtopia. Fitur: real-time trade evaluation, item value engine, dan statistic compiler.",
-    Img: "src/assets/projects/growtopia-calculator.png",
+    Img: "/assets/projects/growtopia-calculator.png",
     Link: "https://github.com/mahroos03/growtopia-calculator",
     LiveDemo: getDemoLink("growtopia-calculator"),
     TechStack: ["JavaScript", "React", "CSS", "Growtopia API", "Real-time Processing"]
@@ -95,7 +95,7 @@ const certificateData = [
     issuer: "Cisco Networking Academy",
     organization: "Networking Academy",
     date: "17 Aug 2025",
-    Img: "src/assets/certificates/Screenshot 2026-06-11 115024.png",
+    Img: "/assets/certificates/Screenshot 2026-06-11 115024.png",
     description: "Cisco Networking Academy certificate for completing Python Essentials 1."
   },
   {
@@ -106,7 +106,7 @@ const certificateData = [
     organization: "University of Moratuwa, Sri Lanka",
     date: "August 17, 2025",
     code: "TTirvE5X2F",
-    Img: "src/assets/certificates/Screenshot 2026-06-11 115950.png",
+    Img: "/assets/certificates/Screenshot 2026-06-11 115950.png",
     description: "University of Moratuwa CODL e-certificate for completing Python for Beginners."
   },
   {
@@ -116,7 +116,7 @@ const certificateData = [
     issuer: "Cisco Networking Academy",
     organization: "OpenEDG Python Institute",
     date: "Aug 17, 2025",
-    Img: "src/assets/certificates/Screenshot 2026-06-11 120011.png",
+    Img: "/assets/certificates/Screenshot 2026-06-11 120011.png",
     description: "Statement of Achievement awarded for Python Essentials 1."
   },
   {
@@ -127,7 +127,7 @@ const certificateData = [
     organization: "SoloLearn",
     date: "29 August, 2025",
     code: "CC-UVJ6RIGO",
-    Img: "src/assets/certificates/Screenshot 2026-06-11 120035.png",
+    Img: "/assets/certificates/Screenshot 2026-06-11 120035.png",
     description: "SoloLearn course certificate for Introduction to Python."
   },
   {
@@ -138,7 +138,7 @@ const certificateData = [
     organization: "Marstech - Connecting People With Modern Technology",
     date: "15 August 2023",
     certificateNumber: "CC-MT/CEH-B002/SR-0393",
-    Img: "src/assets/certificates/Screenshot 2026-06-11 114925.png",
+    Img: "/assets/certificates/Screenshot 2026-06-11 114925.png",
     description: "Certified Ethical Hacker (CEH v11) Training Course certification."
   },
   {
@@ -148,7 +148,7 @@ const certificateData = [
     issuer: "SimpliLearn",
     organization: "SimpliLearn",
     date: "2025",
-    Img: "src/assets/certificates/Moha.png",
+    Img: "/assets/certificates/Moha.png",
     description: "AWS Cloud Practitioner Essentials certification from SimpliLearn."
   }
 ];
@@ -305,24 +305,24 @@ function a11yProps(index) {
 }
 
 const techStacks = [
-  { icon: "src/assets/tech/html.svg", language: "HTML" },
-  { icon: "src/assets/tech/css.svg", language: "CSS" },
-  { icon: "src/assets/tech/javascript.svg", language: "JavaScript" },
-  { icon: "src/assets/tech/tailwind.svg", language: "Tailwind CSS" },
-  { icon: "src/assets/tech/reactjs.svg", language: "ReactJS" },
-  { icon: "src/assets/tech/vite.svg", language: "Vite" },
-  { icon: "src/assets/tech/nodejs.svg", language: "Node JS" },
-  { icon: "src/assets/tech/bootstrap.svg", language: "Bootstrap" },
-  { icon: "src/assets/tech/firebase.svg", language: "Firebase" },
-  { icon: "src/assets/tech/vercel.svg", language: "Vercel" },
-  { icon: "src/assets/tech/java-svgrepo-com.svg", language: "Java" },
-  { icon: "src/assets/tech/spring-boot-svgrepo-com.svg", language: "Spring Boot" },
-  { icon: "src/assets/tech/mysql-logo-svgrepo-com.svg", language: "MySQL" },
-  { icon: "src/assets/tech/postgresql-svgrepo-com.svg", language: "PostgreSQL" },
-  { icon: "src/assets/tech/docker-svgrepo-com.svg", language: "Docker" },
-  { icon: "src/assets/tech/php-programming-language-icon.svg", language: "PHP" },
-  { icon: "src/assets/tech/laravel-1-logo-svgrepo-com.svg", language: "Laravel" },
-  { icon: "src/assets/tech/python-svgrepo-com.svg", language: "Python" },
+  { icon: "/assets/tech/html.svg", language: "HTML" },
+  { icon: "/assets/tech/css.svg", language: "CSS" },
+  { icon: "/assets/tech/javascript.svg", language: "JavaScript" },
+  { icon: "/assets/tech/tailwind.svg", language: "Tailwind CSS" },
+  { icon: "/assets/tech/reactjs.svg", language: "ReactJS" },
+  { icon: "/assets/tech/vite.svg", language: "Vite" },
+  { icon: "/assets/tech/nodejs.svg", language: "Node JS" },
+  { icon: "/assets/tech/bootstrap.svg", language: "Bootstrap" },
+  { icon: "/assets/tech/firebase.svg", language: "Firebase" },
+  { icon: "/assets/tech/vercel.svg", language: "Vercel" },
+  { icon: "/assets/tech/java-svgrepo-com.svg", language: "Java" },
+  { icon: "/assets/tech/spring-boot-svgrepo-com.svg", language: "Spring Boot" },
+  { icon: "/assets/tech/mysql-logo-svgrepo-com.svg", language: "MySQL" },
+  { icon: "/assets/tech/postgresql-svgrepo-com.svg", language: "PostgreSQL" },
+  { icon: "/assets/tech/docker-svgrepo-com.svg", language: "Docker" },
+  { icon: "/assets/tech/php-programming-language-icon.svg", language: "PHP" },
+  { icon: "/assets/tech/laravel-1-logo-svgrepo-com.svg", language: "Laravel" },
+  { icon: "/assets/tech/python-svgrepo-com.svg", language: "Python" },
 ];
 
 export default function FullWidthTabs() {

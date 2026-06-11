@@ -167,7 +167,7 @@ const Home = () => {
         >
           <div className="relative w-full h-full">
             <img
-              src="src/assets/profiles/home profile.jpg"
+              src="/assets/profiles/home profile.jpg"
               alt="Background"
               className="w-full h-full object-cover object-center"
               style={{ objectPosition: "70% 5%" }}
