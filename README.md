@@ -1,113 +1,126 @@
-# Portfolio V5  
-Hello everyone!  
-Let me introduce myself, I’m Eki Zulfar Rachman. On this occasion, I’d like to share the portfolio website project that I’ve developed.  
+# Portfolio V5 - Mohamed Mahroos
 
-**Tech Stack used:**  
-- ReactJS  
-- Tailwind CSS  
-- AOS  
-- Firebase  
-- Framer Motion  
-- Lucide  
-- Material UI  
-- SweetAlert2  
+Hello everyone! 👋 
+I'm **Mohamed Mahroos**, an aspiring DevOps Engineer, Network Engineer, and AWS Specialist. I'm passionate about automation, cloud technologies, and building scalable, reliable, and secure digital solutions.
 
-**Website Link:**  
-[https://www.eki.my.id/](https://www.eki.my.id/)  
+This repository contains my personal portfolio website, showcasing my skills, projects, certifications, and experience.
 
-We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
+## 🚀 Tech Stack Used
+
+- **Frontend:** React.js, Tailwind CSS, Framer Motion, GSAP, Material UI, Lucide React, SweetAlert2
+- **Backend & APIs:** Java, Spring Boot, Spring Security, Spring Cloud, Spring WebSocket, Microservices, REST APIs, Hibernate, Node.js, Express.js
+- **Database & Caching:** PostgreSQL, MySQL, MongoDB, Redis
+- **DevOps & Cloud:** AWS, Docker, Kubernetes, Git, GitHub
+- **Other Tools:** Figma, Lottie
 
 ---
 
-# Tutorial: Running the Project  
+## 💻 Projects Showcased
 
-Here’s a simple guide to run this project.  
+1. **E-Commerce Platform - Full Stack**
+   - *Tech Stack:* Java, Spring Boot, React, MySQL, Docker, Spring Security, Hibernate
+   - *Description:* A complete e-commerce solution with user authentication, product management, shopping cart, and payment integration. Features JWT authentication, REST APIs, responsive UI, and Docker deployment.
+   - [Source Code](https://github.com/mahroos03/ecommerce-platform)
 
-## Prerequisites  
+2. **Hospital Management System**
+   - *Tech Stack:* Spring Boot, Microservices, PostgreSQL, Spring Cloud, Eureka, Resilience4j
+   - *Description:* A microservices-based hospital management system with patient records, appointment scheduling, and billing modules. Features API Gateway and Service Discovery.
+   - [Source Code](https://github.com/mahroos03/hospital-management)
 
-Ensure that you have already installed:  
-- **Node.js**  
+3. **Secure Auth System**
+   - *Tech Stack:* Spring Security, JWT, OAuth2, Redis, MFA, Google API, GitHub API
+   - *Description:* Secure Authentication and Authorization System supporting multiple login providers (Google, GitHub, Email) and role-based access control.
+   - [Source Code](https://github.com/mahroos03/secure-auth-system)
 
----
+4. **Event Management System**
+   - *Tech Stack:* Spring WebSocket, React, FullCalendar API, Email Integration, Microservices, PostgreSQL, Docker
+   - *Description:* Comprehensive event management system with real-time notifications and Google Calendar integration.
+   - [Source Code](https://github.com/mahroos03/event-management)
 
-## Steps to Run the Project  
+5. **ERP Finance Module**
+   - *Tech Stack:* Java, Spring Boot, REST APIs, Database Management, Bank API Integration, Reporting Tools
+   - *Description:* Finance module for an ERP system with backend integration for financial management, reporting, and external bank API connections.
+   - [Source Code](https://github.com/mahroos03/Erp_Finance_Module)
 
-1. **Download this project:**  
-
-   ```bash  
-   git clone https://github.com/EkiZR/Portofolio_V5.git  
-   ```  
-
-2. **Install all dependencies:**  
-
-   ```bash  
-   npm install  
-   ```  
-   Or use:  
-
-   ```bash  
-   npm install --legacy-peer-deps  
-   ```  
-
-3. **Run the project:**  
-
-   ```bash  
-   npm run dev  
-   ```  
-
-4. **Open in browser:**  
-
-   Access the application through the link displayed in your terminal.  
+6. **Growtopia-Calculator**
+   - *Tech Stack:* JavaScript, React, CSS, Growtopia API, Real-time Processing
+   - *Description:* Calculator to calculate item values, trading, and statistics in the game Growtopia.
+   - [Source Code](https://github.com/mahroos03/growtopia-calculator)
 
 ---
 
-## Creating a Production Build  
+## 📜 Key Certifications
 
-To create a production-ready build:  
-
-1. Run the build command:  
-
-   ```bash  
-   npm run build  
-   ```  
-
-2. The build files will be saved in the `dist` folder. You can upload this folder to your hosting server.  
+- **AWS Cloud Practitioner Essentials** — SimpliLearn
+- **Certified Ethical Hacker (CEH v11)** — Marstech (No. CC-MT/CEH-B002/SR-0393)
+- **Python Essentials 1** — Cisco Networking Academy / OpenEDG Python Institute
+- **Python for Beginners** — University of Moratuwa, Sri Lanka (Code: TTirvE5X2F)
+- **Introduction to Python** — SoloLearn (Code: CC-UVJ6RIGO)
 
 ---
 
-## Notes  
+## ⚙️ Running the Project Locally
 
-If you encounter issues while running the project, ensure that:  
-- Node.js is correctly installed.  
-- You’re in the correct project directory.  
-- All dependencies are installed without errors.  
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+- **Node.js** (v16+ recommended)
+- **npm** or **yarn**
+
+### Steps to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/mahroos03/Portofolio_V5.git
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   cd Portofolio-V5
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   # Or if you encounter peer dependency conflicts:
+   npm install --legacy-peer-deps
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open in browser:**
+   Open the local server URL (typically `http://localhost:5173`) displayed in your terminal.
 
 ---
 
-## Firebase Configuration  
+## 📦 Building for Production
 
-To configure Firebase for this project, follow these steps:  
+To generate a production-ready build:
 
-1. **Add Firebase to the Project:**  
-   - Go to the [Firebase Console](https://console.firebase.google.com/).  
-   - Create a new project or use an existing one.  
+1. Run the build command:
+   ```bash
+   npm run build
+   ```
+2. The compiled static files will be generated in the `dist` folder. You can deploy this folder directly to platforms like Vercel, Netlify, or Hostinger.
 
-2. **Enable Firestore Database:**  
-   - Create a database.  
+---
 
-3. **Go to Project Settings:**  
-   - Click the settings icon.  
-   - Copy the Firebase configuration.  
+## 📧 Contact Form Integration
 
-4. **Go to Rules:**  
-   - Set the rules to `true`.  
+This project uses **FormSubmit** to handle contact form submissions directly to email without requiring a dedicated database backend or Firebase:
 
-5. **Adjust the Collection Structure:**  
-   - Set up the collections as shown in the following images:  
+- The form POSTs submissions directly to `https://formsubmit.co/mhmdmahroos3622@gmail.com`.
+- Uses custom configurations like custom templates (`_template`) and captcha bypass (`_captcha`).
 
-   ![Collection Structure Example 1](https://github.com/user-attachments/assets/38580122-08a4-4499-a8fd-0f253652a239)  
-   ![Collection Structure Example 2](https://github.com/user-attachments/assets/d563d7ad-f1ab-46ff-8185-640dcebd0363)  
+---
 
-6. **Update `firebase.js` and `firebase-comment.js` Files:**  
-   - Replace the `firebaseConfig` content with your Firebase configuration.  
+## 🤝 Connect with Me
 
+- **LinkedIn:** [Mohamed Mahroos](https://www.linkedin.com/in/mohamed-mahroos-1b3787293/)
+- **GitHub:** [@mahroos03](https://github.com/mahroos03)
+- **Instagram:** [@loozer_looney](https://www.instagram.com/loozer_looney)
+- **YouTube:** [@lankanstech5383](https://www.youtube.com/@lankanstech5383)
+- **WhatsApp:** [+94 77 065 1216](https://wa.me/94770651216)
